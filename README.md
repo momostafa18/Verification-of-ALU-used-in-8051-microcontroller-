@@ -8,3 +8,9 @@ The ALU 8051 is a crucial component of the 8051 microcontroller, responsible for
 
 ## UVM Verification Environment
 The verification of the ALU 8051 design is conducted using the Universal Verification Methodology (UVM), a standardized methodology for verifying digital designs. The UVM environment encompasses a single active agent architecture, featuring components such as a monitor, driver, sequencer, scoreboard, and coverage collector. The scoreboard employs a First-In-First-Out (FIFO) queue to sample signals from the monitor, facilitating efficient comparison and error detection. Various testing strategies are employed, including randomized test cases, direct test cases, and corner cases, to ensure comprehensive verification coverage.
+
+## Assertion
+Multiple assertions were made to ensure the design correctability 
+
+## Functional Coverage 
+100 % Functional coverage is reached through the tested coverpins
